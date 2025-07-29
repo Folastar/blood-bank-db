@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/login.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <title>Login</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+
+            <form id="login-submit">
+                <h1 class="login_heading"><span class="login_underline">L</span>ogin</h1>
+                <div class="login_control">
+                    <label for="">Username</label>
+                    <input type="text" id="login-username" placeholder="Enter a Username">
+                </div>
+    
+    
+                <div class="login_control">
+                    <label for="">Password</label>
+                    <input type="password" name="password" placeholder="Password" id="login-password">
+                </div>
+
+                <div class="login_control">
+                    <button type="submit" class="login_btn">Login</button>
+                </div>
+            </form>
+            <div>
+                <p>Don't have an Account? <a href="register.html">Register</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="/js/login.js"></script>
+</body>
+</html>
