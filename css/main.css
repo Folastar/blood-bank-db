@@ -341,6 +341,10 @@ footer {
     .center-contact {
       font-size: 18px;
     }
+}
+
+/* 1300px */
+@media (min-width: 81.25rem) {
     /* About */
     .about-section h2 {
         font-size: 3rem;
